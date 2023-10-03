@@ -8,7 +8,7 @@ import pages.HomePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class TC01_StepDeefs {
+public class TC01_StepDefs {
     HomePage homePage=new HomePage();
     @Given("kullanici url ye gider")
     public void kullaniciUrlYeGider() {
