@@ -11,4 +11,10 @@ public class HomePage {
     }
     @FindBy(xpath = "//*[@id='nav-logo-sprites']")
     public WebElement amazonTitleHome;
+
+    @FindBy(xpath = "//*[@id='twotabsearchtextbox']")
+    public WebElement searchButtonHome;
+
+    @FindBy(xpath = "(//*[@class='a-section a-spacing-small a-spacing-top-small'])[1]")
+    public WebElement searchResultNokiaHome;
 }
