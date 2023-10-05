@@ -11,3 +11,5 @@ Feature: TC01
 
     Scenario: dil_secimi
       Given kullanici dil alanina gelir
+      And   kullanici dil olarak Deutsch secer
+      Then  kullanici sayfayi kapatir
