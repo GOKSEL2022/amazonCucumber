@@ -9,7 +9,7 @@ Feature: TC01
       When  kullanici arama sonuclarinda nokia gorundugunu dogrular
       Then  kullanici sayfayi kapatir
 
-    Scenario: dil_secimi
-      Given kullanici dil alanina gelir
-      And   kullanici dil olarak Deutsch secer
-      Then  kullanici sayfayi kapatir
+      Scenario: dil secimi
+        Given kullanici dil alanina gelir
+        When  kullanici dil olarak Deutsch secer
+        Then  kullanici sayfayi kapatir
